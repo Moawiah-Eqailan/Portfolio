@@ -368,12 +368,30 @@ section {
         padding: 12px 20px;
         display: block;
         text-align: center;
-
-
     }
 
+    header .logo {
+        color: #000016;
+    }
+
+    header .navigation {
+        padding: 10px;
+    }
+
+    .main {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background: url(https://i.pinimg.com/564x/34/d9/18/34d918230e2f20e45770dabf1e973877.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+
     body {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .main-content h2 {
@@ -394,7 +412,27 @@ section {
 
     }
 
+    header .logo {
+        color: #000016;
+    }
+
+    header .navigation {
+        padding: 10px;
+    }
+
+    .main {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background: url(https://i.pinimg.com/564x/34/d9/18/34d918230e2f20e45770dabf1e973877.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+
     body {
-        font-size: 10px;
+        font-size: 7px;
     }
 }
