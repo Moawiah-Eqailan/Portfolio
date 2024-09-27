@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
-/************header*************/
+/************ Header Section *************/
+
 header {
     background-color: #f0f0f0;
     width: 100%;
@@ -31,13 +33,15 @@ header {
     font-weight: 500;
     padding-left: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
 .navigation a:hover {
     color: #601cfc;
 }
 
-/************section-main*************/
+/************ Main Section *************/
+
 section {
     padding: 100px 200px;
 }
@@ -96,6 +100,7 @@ section {
     transform: scale(1.1);
 
 }
+/************ Social Media Icons *************/
 
 .social-icons a {
     color: #ffffff;
@@ -111,7 +116,7 @@ section {
 }
 
 
-/************section-services*************/
+/************ Services Section *************/
 
 .cards {
     background-color: #f0f0f0;
@@ -164,8 +169,8 @@ section {
     margin: 10px;
 }
 
-/************section-Skills and Coming-soon*************/
-.Skills {
+/************ Skills and Coming Soon Section *************/
+#Skills {
     background-color: #000016;
 }
 
@@ -189,17 +194,17 @@ section {
 
 }
 
-/************section-projects*************/
+/************ Projects Section *************/
 
-.Projects {
+#Projects {
     background-color: #f0f0f0;
 }
 
-.Projects .contact {
+#Projects .contact {
     margin-top: 30px;
 }
 
-.Projects .content {
+#Projects .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -254,21 +259,21 @@ section {
     color: #601cfc;
 }
 
-/************section-testimonials*************/
-.Testimonials {
+/************ Testimonials Section *************/
+#Testimonials {
     background-color: #000016;
 }
 
-/************section-highlightt*************/
-.Highlight {
+/************ Highlight Section *************/
+#Highlight {
     background-color: #f0f0f0;
 }
 
-.Highlight .contact {
+#Highlight .contact {
     margin-top: 30px;
 }
 
-/************section-card-contact*************/
+/************ Contact Card Section *************/
 .card-contact {
     background-color: #000016;
 }
@@ -286,7 +291,7 @@ section {
     font-size: 1.2em;
 }
 
-/************footer*************/
+/************ Footer Section *************/
 
 .footer {
     background-color: #000016;
@@ -301,7 +306,7 @@ section {
     font-weight: 600;
 }
 
-.footer p {
+#footer p {
     font-size: 1em;
 }
 
@@ -309,12 +314,12 @@ section {
     color: #3a6cf4;
 }
 
-.footer .social-icons a {
+#footer .social-icons a {
     font-size: 1em;
     padding: 0 12px 0 0;
 }
 
-/************@media*************/
+/************ Responsive Media Queries *************/
 
 @media (max-width:1024px) {
     header {
